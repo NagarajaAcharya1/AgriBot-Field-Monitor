@@ -1,0 +1,15 @@
+{
+    "name": "field-robot-monitoring-dashboard",
+    "version": "1.0.0",
+    "private": true,
+    "workspaces": [
+        "frontend",
+        "backend"
+    ],
+    "scripts": {
+        "install:all": "npm install",
+        "frontend": "npm run dev --workspace=frontend",
+        "backend": "npm run dev --workspace=backend",
+        "build": "npm run build --workspaces"
+    }
+}
